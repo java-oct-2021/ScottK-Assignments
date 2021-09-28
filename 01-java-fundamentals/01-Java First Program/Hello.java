@@ -30,6 +30,7 @@ public class Hello {
 
     public static void OneTo255() {
         for(int i=1;i<=20;i++){
+            // practice conditionals
             if(i==10){
                 System.out.println("Hey this is 10");
             }
