@@ -21,7 +21,7 @@ public class Hello {
     }
 
     public static void greet(String student){
-        System.err.printf("Welcome %s", student);
+        System.err.printf("Welcome %s!", student);
     }
 
     public static int add(int i, int j) {
