@@ -10,9 +10,11 @@ public class PuzzlesTest {
         Puzzles test = new Puzzles();
 
         // call methods here
-        int[] randomRolls = test.getTenRolls();
-
+        ArrayList<Integer> randomRolls = test.getTenRolls();
+        char randLetter = test.getRandLetter();
+        
         // test here
-        System.out.println(randomRolls);
+        // System.out.println(randomRolls);
+        // System.out.println(randLetter);
     }
 }
